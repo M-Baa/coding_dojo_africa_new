@@ -1,0 +1,97 @@
+ T-diagrams:
+
+ Snippet1:
+
+As a result, the console output will be:
+
+hello
+Dojo
+
+
+Snippet2:
+
+As a result, the console output will be:
+
+hello
+result is 15
+
+
+Snippet3:
+
+As a result, the console output will be:
+
+Var 		Value 
+ num 		3
+ result 	18 
+
+Snippet4:
+
+As a result, the console output will be:
+
+15
+10
+10
+15
+
+Snippet5:
+
+As a result, the console output will be:
+
+15
+10
+20
+15 
+Snippet6:
+
+As a result, the console output will be:
+
+num is 3
+num is 5
+result is 16
+
+
+Snippet7:
+
+
+As a result, the console output will be:
+
+Var        Value  
+num1       5
+num2       8 
+
+Snippet8:
+
+As a result, the console output will be:
+2
+5
+3
+8
+Snippet9: 
+
+As a result, the console output will be:
+var   value 
+sum     5
+sum     8
+result   13	
+
+Snippet10: 
+
+As a result, the console output will be:
+
+var      value 
+
+sum       5
+sum       3
+sum       6
+sum       3
+sum       5
+sum       8
+result    19
+
+
+
+
+
+
+
+

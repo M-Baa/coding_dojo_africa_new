@@ -1,0 +1,14 @@
+function findAndMoveMinimum(arr) {
+    if (!arr || arr.length === 0) {
+        // Handle empty array
+        return arr;
+    }
+
+    // Find the index of the minimum value in the array
+    let minIndex = arr.indexOf(Math.min(...arr));
+
+    // Swap the minimum value with the value at the first position
+    [arr[0], arr[minIndex]] = [arr[minIndex], arr[0]];
+
+    return arr;
+}
