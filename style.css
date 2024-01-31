@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:gray;
+}
+.nav-title{
+    color:white;
+
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.btn{
+    background-color: aqua;
+    box-shadow: black;
+    color: white;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.active{
+    font-weight: bold;
+}
