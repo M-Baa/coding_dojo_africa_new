@@ -1,0 +1,77 @@
+Assignment: Dojos and Ninjas
+
+Query 1 :
+
+INSERT INTO dojos (name) VALUES ('dojo1');
+INSERT INTO dojos (name) VALUES ('dojo2');
+INSERT INTO dojos (name) VALUES ('dojo3');
+
+
+Query 2 :
+
+DELETE FROM dojos WHERE name;
+
+Query 3:
+
+INSERT INTO dojos (name) VALUES ('dojo1');
+INSERT INTO dojos (name) VALUES ('dojo2');
+INSERT INTO dojos (name) VALUES ('dojo3');
+
+Query4: 
+
+SELECT * FROM dojos_ninjas_schema.ninjas;
+INSERT INTO dojos_ninjas_schema.ninjas (first_name,last_name,age,dojo_id)
+VALUES ('hh','kk',5,1),
+	('aa',zz,9,1),
+	('ee','dd',4,1);
+
+Query5:
+
+SELECT * FROM dojos_ninjas_schema.ninjas;
+INSERT INTO dojos_ninjas_schema.ninjas (first_name,last_name,age,dojo_id)
+VALUES ('ve','vv',6,2),
+	('ss',zz,5,2),
+	('qq','tt',1,2);
+
+Query6:
+
+SELECT * FROM dojos_ninjas_schema.ninjas;
+INSERT INTO dojos_ninjas_schema.ninjas (first_name,last_name,age,dojo_id)
+VALUES ('xx','gg',6,3),
+	('ll','jj',5,3),
+	('mm','nn',1,3);
+
+
+Query7:
+
+SELECT * FROM ninjas WHERE dojo_id = 1;
+
+Query8:
+
+SELECT * FROM ninjas WHERE dojo_id = 2;
+
+Query9:
+
+SELECT * FROM ninjas WHERE dojo_id = 3;
+
+Query10:
+
+SELECT * FROM dojos 
+JOIN ninjas ON ninjas.dojo_id=dojos.id WHERE ninjas.id=6;
+
+Query11: 
+
+SELECT * FROM ninjas
+JOIN  dojos ON dojos.id=dojo_id;
+
+
+
+
+
+
+
+
+
+
+
+		
