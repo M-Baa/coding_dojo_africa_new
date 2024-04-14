@@ -1,0 +1,30 @@
+.tabs-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .tab-headers {
+    display: flex;
+  }
+  
+  .tab-header {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .tab-header:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .tab-header.active {
+    border-bottom: 2px solid #007bff; /* Change the color of the active tab's bottom border */
+    font-weight: bold;
+  }
+  
+  .tab-content {
+    padding: 20px;
+  }
+  
