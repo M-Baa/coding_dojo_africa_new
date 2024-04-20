@@ -6,7 +6,7 @@ const createUser = () => {
         password:faker.internet.password(),
         email:faker.internet.email(),
         phoneNumber:faker.phone.phoneNumber(),
-        lastName:faker.name.lastName();
+        lastName:faker.name.lastName(),
         firstName:faker.name.firstName(),
         _id:faker.datatype.uuid()
 
