@@ -1,0 +1,28 @@
+.box{
+    display:flex;
+    justify-content:space-evenly;
+    border-color: black;
+    background-color: lightgrey;
+  width: 500px;
+  height:200px;
+  border: 5px solid black;
+  padding: 30px;
+  margin: 200px;
+}
+
+button{
+    background-color: yellow;
+    box-shadow: 10px 5px 5px black;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top:40%;
+    padding-right:30%;
+}
+
+h1{
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

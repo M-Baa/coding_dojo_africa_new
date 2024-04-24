@@ -23,7 +23,7 @@ def repeat_word(num,word):
     for i in range(0,num):
         output += f"<p>{word}</p>"
 
-        return output 
+    return output 
     
 
     if __name__ == "__main__":

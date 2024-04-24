@@ -1,0 +1,31 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn{
+    box-shadow:black ;
+    background-color: rgb(43, 35, 25);
+}
+.row {
+    gap: 50px;
+    
+}
+.col{
+    grid-template-columns: auto auto auto;
+}
+.navbar {
+    display:flex;
+list-style: none;
+color:white;
+gap:20px;
+align-items: center;
+
+}

@@ -23,8 +23,9 @@ iheb = user ("iheb", "mechi","iheb@gmail.com",17)
 maryem.display_info()
 maryem.enroll()
 maryem.spend_points(50)
+maryem.display_info()
 iheb.enroll()
-iheb.display_info()
 iheb.spend_points(80)
+iheb.display_info()
 
 

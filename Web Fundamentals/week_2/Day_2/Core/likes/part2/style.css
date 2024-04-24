@@ -1,0 +1,71 @@
+.rightbox {
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+.Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    height: 195px;
+    width: 110px;
+}
+
+.onebox {
+    height: 500px;
+    width: 565px;
+    border: 2px black solid;
+    box-shadow: 2px black;
+}
+
+.DownFeed {
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:5px;
+
+}
+
+.left.img {
+    height: 5px;
+    width: 5px;
+    
+}
+
+.Navbar {
+    color: white;
+    background-color: black;
+}
+
+button {
+    background-color: yellow;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    border: 2px solid black;
+    padding-right: 40%;
+}
+.likebutton{
+    width:50px;
+    height:30px;
+    box-shadow: 2px black;
+}
